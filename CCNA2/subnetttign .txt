@@ -1,0 +1,92 @@
+192.168.100.0/24					128 64 32 16 8 4 2 1
+
+255      .  255	 .  255	 .   0
+
+
+11111111 11111111 11111111 00000000
+
+11000000 10100000 01100100 00000000
+
+11000000 10100000 01100100 00000000
+
+192.168.100.0 network 
+
+192.168.100.255 broadcast 
+
+1-254 hosts
+
+
+
+192.168.100.129
+
+255.255.255.224
+
+
+1111111.11111111.11111111.11100000
+
+32 1st netwoek address
+
+64 2nd network address
+
+96 3rd network address
+
+128 4th network address
+
+160 5th network address
+
+192 6th network address
+
+
+0-31 1st netwoek address hosts 1-30
+
+32-63 2nd netwoek address hosts 33-62
+
+64-95 3rd netwoek address hosts 65-94
+
+96-127 4th netwoek address hosts 97-126 
+
+128-159 5th netwoek address hosts 129-158 
+
+160-191 6th netwoek address hosts 161-190 
+
+6 network adddress and 30 useble hosts per network
+
+Branch-A
+
+lan 1
+
+172.20.16.0/23
+
+ 255 		  255		  254		  0
+
+11111111	 11111111	 11111110	 00000000
+
+10101100	 00010100	 00010000	 00000000
+
+10101100	 00010100	 00010000	 00000001
+
+172.20.16.1
+
+10101100	 00010100	 00010001        11111111
+
+172.20.16.1
+
+172.20.17.255
+
+172.20.16.1	255.255.255.254.0
+
+lan 2
+
+
+
+172.20.18.1	255.255.255.255.0
+172.20.18.255	255.255.255.255.0
+
+
+Branch-B
+
+2001:DB8:FFFF:FFFF::2/64
+
+2001:DB8:FFFF:FFFF::2/64
+
+ 
